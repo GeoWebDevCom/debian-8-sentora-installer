@@ -9,9 +9,11 @@ nano /etc/apt/sources.list
 and delete all that is in there and replace it with this:
 
 deb http://ftp.us.debian.org/debian/ jessie main contrib non-free
+
 deb-src http://ftp.us.debian.org/debian/ jessie main contrib non-free
 
 deb http://security.debian.org/ jessie/updates main contrib non-free
+
 deb-src http://security.debian.org/ jessie/updates main contrib non-free
 
 
